@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#total {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+body {
+    /* background: #444; */
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 130px;
+    padding-top: 50px;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    background: #444;
+    border-radius: 50%;
+    float: left;
+    display: block;
+    margin-right: 50px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.name > h1 {
+    font-size: 35px;
+    padding-bottom: 7px;
+
+
+}
+
+.name > h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.name > p {
+    font-size: 16px;
+}
+
+
+/* ============================== */
+
+
+#nav {
+    margin-top: 20px;
+    background: #ddd;
+    padding: 5px 0px;
+}
+
+.nav ul {
+    list-style: none;
+
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+.nav ul li i {
+    margin-right: 5px;
+    padding: 5px;
+    background: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ========================== */
+.educationn {
+    width: 45%;
+    height: 800px;
+    float: left;
+    padding-left: 40px;
+}
+.bodyLeft {
+  width: 45%;
+  /*height: 800px;*/
+  float: left;
+  padding-left: 40px;
+}
+.bodyRight {
+  width: 45%;
+  /*height: 800px;*/
+  float: right;
+  padding-left: 40px;
+}
+
+.skill {
+    width: 45%;
+    height: 800px;
+    float: right;
+    padding-left: 40px;
+}
+
+/* =========================== */
+.WORK_EXPERIENCE {
+    padding-bottom: 20px;
+    color: #444;
+}
+
+.WORK_EXPERIENCE > h1 {
+
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.WORK_EXPERIENCE > h2 {
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 12px;
+
+}
+
+.WORK_EXPERIENCE > h4 {
+    color: #444;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.WORK_EXPERIENCE > h3 {
+    font-size: 18px;
+
+    /*padding-bottom: 12px;*/
+}
+
+.WORK_EXPERIENCE > h5 {
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.WORK_EXPERIENCE > p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+
+/* ======================== */
+
+.PROFESSIONAL_PROJECTS {
+    height: fit-content;
+    color: #444;
+}
+
+.PROFESSIONAL_PROJECTS > h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.PROFESSIONAL_PROJECTS > h2 {
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.PROFESSIONAL_PROJECTS > p {
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.EDUCATION {
+    color: #444;
+    padding-top: 20px;
+}
+
+.EDUCATION > h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.EDUCATION > h2 {
+    font-size: 18px;
+}
+
+.EDUCATION > h3 {
+    font-size: 16px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.EDUCATION > h4 {
+    font-size: 16px;
+    font-weight: 100;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-style: italic;
+
+}
+
+.EDUCATION > h5 {
+    float: right;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+/* ============================ */
+.SKILL {
+    padding-bottom: 20px;
+}
+
+.SKILL > h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+.SKILL > h6 {
+    width: fit-content;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #444;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* ===================== */
+
+.OTHER_EXPERTISE {
+    color: #444;
+}
+
+.OTHER_EXPERTISE > h1 {
+    font-size: 22px;
+}
+
+.OTHER_EXPERTISE > h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.OTHER_EXPERTISE > p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* ===================== */
+.PERSONAL_PROJECTS {
+    color: #444;
+    padding-top: 30px;
+}
+
+.PERSONAL_PROJECTS > h1 {
+    font-size: 22px;
+}
+
+.PERSONAL_PROJECTS > h2 {
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.PERSONAL_PROJECTS > p {
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+/* ====================================== */
+.LANGUAGES {
+
+}
+
+.LANGUAGES > h1 {
+    font-size: 22px;
+    color: #444;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.english {
+    width: 50%;
+    text-align: left;
+    float: left;
+    text-transform: capitalize;
+}
+
+.english > h1 {
+    font-size: 18px;
+}
+
+.english > p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.bangla {
+    text-transform: capitalize;
+    width: 50%;
+    text-align: left;
+    float: right;
+}
+
+.bangla > h1 {
+    font-size: 18px;
+}
+
+.bangla > p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* ============= */
+.INTERESTS {
+    color: #444;
+    padding-top: 30px;
+}
+
+.INTERESTS > h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.INTERESTS > h2 {
+    width: fit-content;
+    padding: 5px 15px;
+    border: 1px solid #444;
+    color: #444;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+}
