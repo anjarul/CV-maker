@@ -14,6 +14,7 @@ body {
 
 .wrapper {
     width: 100%;
+    font-family: sans-serif;
 }
 
 .content {
@@ -25,7 +26,16 @@ body {
     height: 130px;
     padding-top: 50px;
 }
-
+h1 {
+    color: #5A9BA4;
+}
+h2 {
+    font-weight: 600;
+    color: black;
+}
+h4,h3 {
+    color: black;
+}
 .logo {
     width: 130px;
     height: 130px;
@@ -43,7 +53,7 @@ body {
 }
 
 .name > h1 {
-    font-size: 35px;
+    font-size: 33px;
     padding-bottom: 7px;
 
 
@@ -65,7 +75,7 @@ body {
 
 #nav {
     margin-top: 20px;
-    background: #ddd;
+    background: #f2f2f2;
     padding: 5px 0px;
 }
 
@@ -75,6 +85,7 @@ body {
 }
 
 .nav ul li {
+    font-size: 15px;
     display: inline-block;
     margin-left: 20px;
 }
@@ -85,8 +96,8 @@ body {
 .nav ul li i {
     margin-right: 5px;
     padding: 5px;
-    background: #444;
-    color: white;
+    background: #f2f2f2;
+    color: #5A9BA4;
     border-radius: 5px;
 }
 
@@ -124,7 +135,6 @@ body {
 }
 
 .WORK_EXPERIENCE > h1 {
-
     padding-top: 20px;
     font-size: 22px;
 }
@@ -137,7 +147,6 @@ body {
 }
 
 .WORK_EXPERIENCE > h4 {
-    color: #444;
     padding-top: 10px;
     font-size: 20px;
 }
@@ -200,6 +209,7 @@ body {
     font-size: 16px;
     display: block;
     padding-bottom: 10px;
+    font-weight: 400;
 }
 
 .EDUCATION > h4 {
@@ -232,10 +242,10 @@ body {
     width: fit-content;
     display: inline-block;
     padding: 5px 10px;
-    background: #444;
+    background: #5A9BA4;
     margin-bottom: 10px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
     margin-right: 5px;
     border-radius: 5px;
     color: white;
@@ -253,7 +263,6 @@ body {
 
 .OTHER_EXPERTISE > h2 {
     font-size: 17px;
-    font-weight: bold;
     padding-top: 6px;
 }
 
@@ -341,12 +350,14 @@ body {
 
 .INTERESTS > h2 {
     width: fit-content;
-    padding: 5px 15px;
-    border: 1px solid #444;
-    color: #444;
     display: inline-block;
-    font-size: 16px;
+    padding: 5px 10px;
+    background: #5A9BA4;
+
     margin-bottom: 10px;
-    border-radius: 5px;
+    font-size: 16px;
     font-weight: 400;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
 }
